@@ -318,6 +318,19 @@ h3{
   display: none; 
 }
 
+#call{
+  display: none;
+  width: 400px;
+  height: 250px;
+  margin: auto;
+  position: sticky;
+  background-color: #00856F;
+  text-align: center;
+  color: #FFFAF1;
+  padding-top: 30px;
+  line-height: 1.5em;
+}
+
 @media only screen and (max-width: 600px){
 
   *{
