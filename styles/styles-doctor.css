@@ -338,15 +338,32 @@ h3{
   height: 250px;
   margin: auto;
   background-color: #00856F;
+  padding-top: 70px;
   text-align: center;
   color: #FFFAF1;
-  padding-top: 70px;
   line-height: 1.5em;
   margin-top: 30vh;
+  border-radius: 15px;
 }
 
 .modal-body p{
   color:#FFFAF1;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.modal-body input{
+  margin-bottom: 10px;
+}
+
+.close:before{
+  display: inline-block;
+  content: "\00d7";
+  font-size: 45px;
+  line-height: 70px;
+  position: absolute;
+  right: 350px;
+  top: 210px;
 }
 
 @media only screen and (max-width: 600px){
