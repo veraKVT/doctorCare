@@ -7,23 +7,18 @@ function myFunction() {
     }
   }
 
-const btn = document.getElementById('btn');
-
-btn.addEventListener('click', () => {
-  const call = document.getElementById('call');
-
+function showModal(){
   if (call.style.display === 'none'){
     call.style.display = 'block';
   } else {
     call.style.display = 'none';
   }
-});
+}
 
-let userName = '';
-let userPhone = '';
+let userName = document.getElementById('name-call');
+let userPhone = document.getElementById('phone-call');
 
-const recall = document.getElementById('recall');
-recall.addEventListener('click', () => {
-  alert(`${userName}, we'd call you in a few minutes!`)
-
-});
+function reCall(){
+  alert(`${userName}, we'd call you in a few minutes!`); 
+  showModal();
+};
