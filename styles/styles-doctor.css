@@ -338,7 +338,7 @@ h3{
   height: 250px;
   margin: auto;
   background-color: #00856F;
-  padding-top: 70px;
+  /* padding-top: 70px; */
   text-align: center;
   color: #FFFAF1;
   line-height: 1.5em;
@@ -356,14 +356,13 @@ h3{
   margin-bottom: 10px;
 }
 
-.close:before{
-  display: inline-block;
-  content: "\00d7";
-  font-size: 45px;
-  line-height: 70px;
-  position: absolute;
-  right: 32%;
-  top: 30%;
+p.close{
+  color: #FFFAF1;
+  text-align: right;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 1px;
+    margin-right: 20px;
 }
 
 @media only screen and (max-width: 600px){
