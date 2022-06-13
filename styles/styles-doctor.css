@@ -362,8 +362,8 @@ h3{
   font-size: 45px;
   line-height: 70px;
   position: absolute;
-  right: 350px;
-  top: 210px;
+  right: 32%;
+  top: 30%;
 }
 
 @media only screen and (max-width: 600px){
