@@ -12,7 +12,7 @@ function myFunction() {
 
 function showModal(){
   let call = document.getElementById('call');
-  let displyForCall = getComputedStyle(call).getPropertyValue("display")
+  let displyForCall = getComputedStyle(call).getPropertyValue("display");
   if (displyForCall === 'none'){
     displyForCall = 'block';
   } else {
