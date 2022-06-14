@@ -4,6 +4,11 @@
     font-family: 'DM Sans';
   }
 
+
+  #call{
+    display: none;
+  }
+
 .header-dark{
   display: flex;
   width: calc(100% - 246px);
@@ -316,10 +321,6 @@ h3{
 
 #burger{
   display: none; 
-}
-
-#call{
-  display: none;
 }
 
 .modal-box{

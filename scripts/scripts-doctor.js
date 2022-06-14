@@ -1,3 +1,6 @@
+let userName;
+let userPhone;
+
 function myFunction() {
     var x = document.getElementById("burger");
     if (x.style.display === "block") {
@@ -8,17 +11,18 @@ function myFunction() {
   }
 
 function showModal(){
-  if (call.style.display === 'none'){
-    call.style.display = 'block';
+  let call = document.getElementById('call');
+  let displyForCall = getComputedStyle(call).getPropertyValue("display")
+  if (displyForCall === 'none'){
+    displyForCall = 'block';
   } else {
-    call.style.display = 'none';
+    displyForCall = 'none';
   }
 }
 
-let userName = document.getElementById('name-call');
-let userPhone = document.getElementById('phone-call');
-
 function reCall(){
+  userName = document.getElementById('name-call').value;
+  userPhone = document.getElementById('number-call').value;
   alert(`${userName}, we'd call you in a few minutes!`); 
   showModal();
 };
