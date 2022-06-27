@@ -18,7 +18,7 @@ function showModal(){
 }
 
 function reCall(){
-  debugger;
+  
   let userName = document.getElementById('name-call').value;
   
   const lastMessage = document.createElement('p');
