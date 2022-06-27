@@ -1,6 +1,3 @@
-let userName;
-let userPhone;
-
 function myFunction() {
     var x = document.getElementById("burger");
     if (x.style.display === "block") {
@@ -10,19 +7,27 @@ function myFunction() {
     }
   }
 
-function showModal(){
+function showModal(){  
   let call = document.getElementById('call');
   let displyForCall = getComputedStyle(call).getPropertyValue("display");
   if (displyForCall === 'none'){
-    displyForCall = 'block';
+    call.style.display = 'block';
   } else {
-    displyForCall = 'none';
+    call.style.display = 'none';
   }
 }
 
 function reCall(){
-  userName = document.getElementById('name-call').value;
-  userPhone = document.getElementById('number-call').value;
-  alert(`${userName}, we'd call you in a few minutes!`); 
-  showModal();
+  debugger;
+  let userName = document.getElementById('name-call').value;
+  
+  const lastMessage = document.createElement('p');
+  const mesText = document.createTextNode(`${userName}, we'd call you in a few minutes!`);
+  const parent = document.getElementsByClassName('modal-body')[0];
+  const child = document.getElementById('textLine');
+  lastMessage.appendChild(mesText);  
+  parent.replaceChild(lastMessage, child);
+  const recicleForm = document.getElementsByTagName('form')[0];
+  parent.removeChild(recicleForm);
 };
+
