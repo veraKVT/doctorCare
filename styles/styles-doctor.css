@@ -30,6 +30,7 @@ ul{
 
 a{
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 .menu{
@@ -76,16 +77,16 @@ a{
 }
 
 .title{
-  position: relative;
-  top: 70px;
+  position: relative;  
   display: flex;  
-  padding: 0 123px 55px;
+  padding: 70px 123px 55px;
   background-color: #DCE9E2;
-
+  justify-content: space-around;
 }
 
 .title-text{
   padding-top: 80px;
+  flex-shrink: 0;
 }
 
 .title-text p{
@@ -136,7 +137,7 @@ h3{
 
 .button2{
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #FFFFFF;  
   background-color: #00856F;
   border-radius: 40px;
   width: 263px;
@@ -159,20 +160,21 @@ h3{
 }
 
 .number{  
-  display: flex;  
-  align-items: center;
-  margin: 0px 123px;
+  display: flex;
+  width: calc(100% - 246px); 
+  align-items: center;  
   background-color: #FFFAF1;  
   text-align: center;
   border: 1px solid #DCE9E2;
   border-radius: 6px;
-  position: relative;
-  top: -45px;
+  position: absolute;
+  top: 580px;
+  left: 123px;
   z-index: 10;
+  justify-content: space-around;
 }
 
-.num-child{
-  flex: 1;
+.num-child{  
   padding: 60px 0px;
 }
 
@@ -200,10 +202,8 @@ h3{
 .tiles{
   background-color: #F7F9F9;
   text-align: center;
-  padding: 300px 123px 160px;
-  position: relative;
-  top: -165px;
-
+  padding: 263px 123px 160px;
+  position: relative;  
 }
 
 .options{
@@ -247,29 +247,26 @@ h3{
   background-color: #FFFAF1;
   display: flex;
   padding: 160px 123px;
-  justify-content: space-between;  
-  position: relative;
-  top: -165px;  
+  justify-content: space-around;  
+  position: relative;  
 }
 
 .doc-text{
-  flex: 1;  
+  flex: 1;
   padding-top: 40px;
   padding-left: 67px;
 }
 
-.doc-foto{
-  width: 100%; 
-   
+.doc img{
+  width: 100%;   
 }
 
 .contact{
   display: flex;
   justify-content: space-between;  
   background-color:  #FFFFFF;
-  padding: 160px 123px 0px;
-  position: relative;
-  top: -165px;
+  padding: 160px 123px;
+  position: relative;  
 }
 
 .contact svg{
@@ -281,6 +278,15 @@ h3{
   padding: 8px 0px;
 
 }
+
+.mail{
+  color: #495057;
+}
+
+.mail:hover{
+  color: #00856F;
+}
+
 
 .contact .button2{
   margin-top: 32px;
@@ -338,8 +344,7 @@ h3{
   width: 600px;
   height: 250px;
   margin: auto;
-  background-color: #00856F;
-  /* padding-top: 70px; */
+  background-color: #00856F;  
   text-align: center;
   color: #FFFAF1;
   line-height: 1.5em;
@@ -373,7 +378,7 @@ p.close{
   }
 
   .header-dark{
-      width: 375px;
+      width: 400px;
       height: 70px;
       padding: 0 24px 0;        
   }
@@ -396,7 +401,7 @@ p.close{
       text-align: center;
       padding-top: 130px;
       height: 100vh;
-      width: 375px;      
+      width: 400px;      
   }
 
   #burger a{
@@ -428,14 +433,14 @@ p.close{
 
   .title{        
       flex-direction: column;  
-      padding: 0 24px 55px;        
-      width: 375px;
+      padding: 70px 24px 55px;        
+      width: 400px;
     }
 
   .title img{
       width: 100%;
       padding-top: 66px;
-      padding-bottom: 182px;
+      padding-bottom: 252px;
   }
   
   .title-text{      
@@ -456,10 +461,11 @@ p.close{
 
   .number{        
       flex-direction: column;
-      width: 327px;  
+      width: 340px;  
       align-items: center;
       margin: 0px 24px;        
-      top: -190px;
+      top: 1030px;
+      left: 10px;
   }      
       
   .midnum{
@@ -467,9 +473,8 @@ p.close{
   }
 
   .tiles{        
-      padding: 417px 24px 100px;        
-      top: -505px;
-      width: 375px;      
+      padding: 320px 24px 100px;     
+      width: 400px;      
   }
 
   .options{        
@@ -488,8 +493,8 @@ p.close{
   .doc{        
       flex-direction: column;
       padding: 57px 24px 100px;        
-      top: -505px;
-      width: 375px;  
+      /* top: -505px; */
+      width: 400px;  
   }
 
   .doc-text{
@@ -508,9 +513,8 @@ p.close{
 
   .contact{        
       flex-direction: column;        
-      padding: 100px 24px 0px;
-      top: -505px;
-      width: 375px;
+      padding: 100px 24px 100px;      
+      width: 400px;
   }
 
   .contact img{
@@ -521,7 +525,7 @@ p.close{
   .foot{
       padding: 60px 24px;        
       flex-direction: column;     
-      width: 375px;
+      width: 400px;
       height: 285px;
   }
 
@@ -530,9 +534,8 @@ p.close{
       gap: 40px;
       padding-top: 26px;
   }
+}  
 
-  
-}
 
 
 
