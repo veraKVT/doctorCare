@@ -373,10 +373,6 @@ h3{
   gap: 47px;
 }
 
-#burger{
-  display: none; 
-}
-
 .modal-box{
   width: 100%;
   height: 100%;
@@ -472,12 +468,6 @@ p.close{
     margin-bottom: 48px;
     opacity: 1;  
   }
-
-  /* .show-list{
-    height: 875px;
-    width: 400px;
-    background-color: #00856F;    
-  }   */
 
   .header-dark .menu-child:hover{    
     border-bottom: 0px;    
@@ -619,6 +609,10 @@ p.close{
     align-items: center;
     gap: 47px;
     margin-top: 80px;
+  }
+
+  .show-list main, .show-list footer{
+    display: none;
   }
 }  
 

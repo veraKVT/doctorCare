@@ -1,11 +1,15 @@
 window.onscroll = function changeHeader(){
   let headColor = document.getElementById('head-bar');  
-  if (document.body.scrollTop > 30){
-    headColor.classList.toggle('header-light')
-    headColor.classList.toggle('header-dark');
+    if (document.documentElement.scrollTop > 30 && headColor.classList.contains('header-light') === true){    
+      headColor.classList.remove('header-light');
+      headColor.classList.add('header-dark');       
+    } else if (document.documentElement.scrollTop < 30 && headColor.classList.contains('header-dark') === true){
+      headColor.classList.remove('header-dark');
+      headColor.classList.add('header-light'); 
+    }
     changeImages();
   }
-}
+
 
 function changeImages(){
   let logo = document.getElementById('logo');
