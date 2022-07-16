@@ -128,6 +128,12 @@ a{
   
 }
 
+.header-dark .button:hover{
+  color:  #00856F;    
+  background-color: #FFFFFF;
+    
+}
+
 .social1{
   display: none;
 }
