@@ -40,7 +40,8 @@ a{
   position: fixed;
   top: 0px;
   left: 0px;
-  z-index: 20;  
+  z-index: 20;
+  gap: 20px;  
 }
 
 .header-dark .menu-child{
@@ -73,7 +74,7 @@ a{
   border-radius: 40px;
   padding: 10px 25px;
   letter-spacing: 0.3px;
-  text-align: center;  
+  text-align: center; 
 }
 
 .header-light{
@@ -86,7 +87,8 @@ a{
   position: fixed;
   top: 0px;
   left: 0px;
-  z-index: 20;  
+  z-index: 20; 
+  gap: 20px; 
   }
 
 .header-light .menu-child{
