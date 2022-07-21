@@ -4,6 +4,9 @@
   font-family: 'DM Sans';
 }
 
+body{
+  min-width: 1100px;
+}
 
 #call{
   display: none;
@@ -223,9 +226,10 @@ h3{
   margin-right: 17px;
 }
 
-.number{  
+.number{
+  box-sizing: border-box;  
   display: flex;
-  width: calc(100% - 246px); 
+  min-width: calc(100% - 246px); 
   align-items: center;  
   background-color: #FFFAF1;  
   text-align: center;
@@ -425,7 +429,7 @@ p.close{
 
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 400px){
 
   *{
       box-sizing: border-box;
