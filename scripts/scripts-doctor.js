@@ -2,10 +2,10 @@
 
 window.onscroll = function changeHeader(){
   let headColor = document.getElementById('head-bar');  
-    if (document.documentElement.scrollTop > 30 && headColor.classList.contains('header-light') === true){    
+    if (document.documentElement.scrollTop > 50 && headColor.classList.contains('header-light') === true){    
       headColor.classList.remove('header-light');
       headColor.classList.add('header-dark');       
-    } else if (document.documentElement.scrollTop < 30 && headColor.classList.contains('header-dark') === true){
+    } else if (document.documentElement.scrollTop < 50 && headColor.classList.contains('header-dark') === true){
       headColor.classList.remove('header-dark');
       headColor.classList.add('header-light'); 
     }

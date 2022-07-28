@@ -1,0 +1,236 @@
+@media only screen and (max-width: 400px){
+
+    *{
+        box-sizing: border-box;
+    }
+  
+    .hide-list .menu{
+      display: none;
+    }
+  
+    .show-list .menu{
+      display: block;
+      margin-top: 60px;
+    }
+  
+    #burger-but{
+      display: block;
+    }
+  
+    #head-bar{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    
+    .logo-parent{
+      display: flex;
+      justify-content: space-between;
+      gap: 185px;
+      margin: 23px 0px;
+    }  
+  
+    .header-dark, .header-light{
+        width: 400px;
+        height: 70px;
+        padding: 0 24px 0;       
+    }
+  
+    .show-list .header-dark{
+      height: 875px;
+    }
+
+    .show-list .header-light{
+        height: 875px;
+      }
+
+    .header-dark .menu-child{
+      color: #FFFAF1;    
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 31px;
+      text-align: center;
+      margin-bottom: 48px;
+      opacity: 1;  
+    }
+
+    .header-light .menu-child{
+        color: #00856F;    
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 31px;
+        text-align: center;
+        margin-bottom: 48px;
+        opacity: 1;  
+      }
+  
+    .header-dark .menu-child:hover{    
+      border-bottom: 0px;    
+    }
+
+    .header-light .menu-child:hover{    
+        border-bottom: 0px;    
+      }
+  
+    .header-dark #activ{    
+      border-bottom: 0px;  
+    }
+
+    .header-light #activ{    
+        border-bottom: 0px;  
+    }    
+  
+    .hide-list .button{
+      display: none;
+    }
+  
+    .show-list .header-dark .button{
+      color:  #00856F;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 700;
+      background-color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      border-radius: 40px;
+      padding: 16px 32px;
+      text-align: center;
+      line-height: 23px;
+      width: 274px;
+      margin: auto;
+    }
+
+    .show-list .header-light .button{
+        color:  #DCE9E2;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 700;
+        background-color: #00856F;       
+        border: 1px solid #00856F;
+        border-radius: 40px;
+        padding: 16px 32px;
+        text-align: center;
+        line-height: 23px;
+        width: 274px;
+        margin: auto;
+      }
+  
+    .title{        
+        flex-direction: column;  
+        padding: 70px 24px 55px;        
+        width: 400px;
+      }
+  
+    .title img{
+        width: 100%;
+        padding-top: 66px;
+        padding-bottom: 252px;
+    }
+    
+    .title-text{      
+      text-align: center;  
+    }
+  
+    .title-text .button2{
+        margin: auto;
+    }
+  
+    h1{
+        font-size: 34px;
+    }
+  
+    h2{
+        font-size: 30px;
+    }
+  
+    .number{        
+        flex-direction: column;
+        width: 340px;  
+        align-items: center;
+        margin: 0px 24px;        
+        top: 1030px;
+        left: 10px;
+    }      
+        
+    .midnum{
+        border: none        
+    }
+  
+    .tiles{        
+        padding: 320px 24px 100px;     
+        width: 400px;      
+    }
+  
+    .options{        
+        flex-direction: column;
+        width: 100%;        
+        justify-content: space-between;
+        gap: 32px;
+        padding-top: 35px;
+    }
+  
+    .check{  
+        width: 327px;         
+        padding: 22px;
+    }
+  
+    .doc{        
+        flex-direction: column;
+        padding: 57px 24px 100px;       
+        width: 400px;  
+    }
+  
+    .doc-text{
+        order: 1;
+        padding-left: 0px;
+    }
+  
+    .doc-child{
+        order: 2;
+        padding-top: 60px;
+    }
+  
+    .doc-foto{
+        width: 100%;
+    }
+  
+    .contact{        
+        flex-direction: column;        
+        padding: 100px 24px 100px;      
+        width: 400px;
+    }
+  
+    .contact img{
+        width: 100%;
+        padding-top: 60px;
+    }
+  
+    .foot{
+        padding: 60px 24px;        
+        flex-direction: column;     
+        width: 400px;
+        height: 285px;
+    }
+  
+    .social{        
+        justify-content: flex-start;  
+        gap: 40px;
+        padding-top: 26px;
+    }
+  
+    .hide-list .social1{
+      display: none;
+    }
+  
+    .show-list .social1{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      gap: 47px;
+      margin-top: 80px;
+    }
+  
+    .show-list main, .show-list footer{
+      display: none;
+    }
+}

@@ -4,7 +4,10 @@
   <head>
     <meta charset="utf-8">
     <title>DoctorCare</title>
-    <link href="styles/styles-doctor.css" rel="stylesheet">
+    <link href="styles/body.css" rel="stylesheet">
+    <link href="styles/header.css" rel="stylesheet">
+    <link href="styles/media.css" rel="stylesheet">
+    <link href="styles/modal.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@500&display=swap" rel="stylesheet">
@@ -167,15 +170,15 @@
           <a href="#pageM"><div onclick="showModal()"><p class="close">&times;</p></div></a>
           <p id="textLine">Please, enter the information to contact to you</p>
           <form>
-          <label for="name-call">Your name</label>
-          <br>
-          <input id="name-call" name="name-call" type="text">
-          <br>
-          <label for="number-call">Your phone number</label>
-          <br>
-          <input id="number-call" name="number-call" type="text">
-          <br>
-          <input onclick="reCall()" type="submit" value="OK">
+            <label for="name-call">Your name</label>
+            <br>
+            <input id="name-call" name="name-call" type="text">
+            <br>
+            <label for="number-call">Your phone number</label>
+            <br>
+            <input id="number-call" name="number-call" type="text">
+            <br>
+            <input class="ok" onclick="reCall()" type="submit" value="OK">
           </form>
         </div>
       </div>

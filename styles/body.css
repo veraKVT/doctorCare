@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans';
+}
+
+body{
+  min-width: 1100px;
+}
+
+.title{
+  position: relative;  
+  display: flex;  
+  padding: 70px 123px 55px;
+  background-color: #DCE9E2;
+  justify-content: space-around;
+}
+
+.title-text{
+  padding-top: 80px;
+  flex-shrink: 0;
+}
+
+.title-text p{
+  font-size: 18px;
+  line-height: 150%;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+p{
+  color: #495057;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+h4{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  color: #00856F;
+  letter-spacing: 0.08em;
+  line-height: 150%;
+  margin-bottom: 16px;
+}
+
+h1{
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 130%;
+  color: #212529;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #212529;
+  padding-bottom: 24px;
+}
+
+h3{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  color: #212529;
+  padding: 16px 0px;
+}
+
+.button2{
+  text-transform: uppercase;
+  color: #FFFFFF;  
+  background-color: #00856F;
+  border-radius: 40px;
+  width: 263px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  padding: 0px 7px;
+  transition: background-color 2s;
+  transition-timing-function: linear;
+
+}
+
+.button2:hover{
+  background-color: #00453A;
+}
+
+.button2 svg{
+  vertical-align: middle;
+  margin-right: 17px;
+}
+
+.number{
+  box-sizing: border-box;  
+  display: flex;
+  min-width: calc(100% - 246px); 
+  align-items: center;  
+  background-color: #FFFAF1;  
+  text-align: center;
+  border: 1px solid #DCE9E2;
+  border-radius: 6px;
+  position: absolute;
+  top: 580px;
+  left: 123px;
+  z-index: 10;
+  justify-content: space-around;
+}
+
+.num-child{  
+  padding: 60px 0px;
+}
+
+.num{
+  color: #212529;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 130%;
+  
+}
+
+.undernum{
+  color: #00856F;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 0px 100px;
+}
+
+.midnum{
+  border-left: 1px solid #00856F;
+  border-right: 1px solid #00856F;
+  
+}
+
+.tiles{
+  background-color: #F7F9F9;
+  text-align: center;
+  padding: 263px 123px 160px;
+  position: relative;  
+}
+
+.options{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 60px 60px;
+  padding-top: 40px;
+}
+
+.check{
+  width: 300px;
+  height: 207px;
+  border: 1px solid #DCE9E2;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  text-align: start;
+  padding: 24px 24px 0px;
+  transition: width 1s, height 1s, box-shadow 0.5s; 
+  transition-delay: 0.2s;
+  transition-timing-function: linear;
+}
+
+.check:hover{
+  width: 310px;
+  height: 217px;  
+  box-shadow: 0px 3px 15px #00453A; 
+}
+
+.round{  
+  width: 24px;
+  height: 24px;
+  background-color: #DCE9E2;
+  border: 1px solid #DCE9E2;
+  border-radius: 50%;
+  text-align: center; 
+}
+
+.doc{
+  background-color: #FFFAF1;
+  display: flex;
+  padding: 160px 123px;
+  justify-content: space-around;  
+  position: relative;  
+}
+
+.doc-text{
+  flex: 1;
+  padding-top: 40px;
+  padding-left: 67px;
+}
+
+.doc img{
+  width: 100%;   
+}
+
+.contact{
+  display: flex;
+  justify-content: space-between;  
+  background-color:  #FFFFFF;
+  padding: 160px 123px;
+  position: relative;  
+}
+
+.contact svg{
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.contact p{
+  padding: 8px 0px;
+
+}
+
+.mail{
+  color: #495057;
+}
+
+.mail:hover{
+  color: #00856F;
+}
+
+
+.contact .button2{
+  margin-top: 32px;
+}
+
+.foot{
+  padding: 80px 123px;
+  background-color: #00856F;
+  display: flex;
+  justify-content: space-between;  
+}
+
+.foot p{
+  color: #FFFAF1;
+  font-size: 14px;
+  line-height: 18px;
+  padding:  8px 0px;
+}
+
+.foot img{
+  margin-bottom: 24px;
+}
+
+.social{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 47px;
+}

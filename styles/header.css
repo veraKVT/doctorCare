@@ -1,0 +1,130 @@
+#burger-but{
+  display: none;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.header-dark{
+  display: flex;
+  width: calc(100% - 246px);
+  justify-content: space-between;
+  background-color: #00856F;
+  padding: 0 123px 0;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 20;
+  gap: 20px;  
+}
+
+.header-dark .menu-child{
+  color: #F7F9F9;
+  font-size: 16px;
+  opacity: 0.6;
+  line-height: 70px;
+  font-weight: 400;  
+}
+
+.header-dark .menu-child:hover{
+  color: #F7F9F9;
+  font-weight: 700;
+  border-bottom: 2px solid #F7F9F9;
+  opacity: 1;
+}
+
+.header-dark #activ{
+  color: #F7F9F9;
+  border-bottom: 2px solid #F7F9F9;
+  opacity: 1;
+}
+
+.header-dark .button{
+  color:  #FFFFFF;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid #FFFFFF;
+  border-radius: 40px;
+  padding: 10px 25px;
+  letter-spacing: 0.3px;
+  text-align: center; 
+}
+
+.header-light{
+  display: flex;
+  width: calc(100% - 246px);
+  justify-content: space-between;
+  background-color: #DCE9E2;
+  padding: 0 123px 0;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 20; 
+  gap: 20px; 
+  }
+
+.header-light .menu-child{
+  color: #00856F;
+  font-size: 16px;
+  opacity: 0.7;
+  line-height: 70px;
+  font-weight: 400;  
+}
+
+.header-light .menu-child:hover{
+  color: #00856F;
+  font-weight: 700;
+  border-bottom: 2px solid #00856F;
+  opacity: 1;
+}
+
+.header-light #activ{
+  color: #00856F;  
+  border-bottom: 2px solid #00856F;
+  opacity: 1;
+}
+
+.header-light .button{
+  color:  #00856F;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid #00856F;
+  border-radius: 40px;
+  padding: 10px 25px;
+  letter-spacing: 0.5px;
+  text-align: center;  
+}
+
+.header-light .button:hover{  
+  color: #FFFFFF;  
+  background-color: #00856F;
+  
+}
+
+.header-dark .button:hover{
+  color:  #00856F;    
+  background-color: #FFFFFF;
+    
+}
+
+.social1{
+  display: none;
+}
