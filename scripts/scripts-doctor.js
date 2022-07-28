@@ -1,3 +1,5 @@
+// to fix header
+
 window.onscroll = function changeHeader(){
   let headColor = document.getElementById('head-bar');  
     if (document.documentElement.scrollTop > 30 && headColor.classList.contains('header-light') === true){    
@@ -10,6 +12,7 @@ window.onscroll = function changeHeader(){
     changeImages();
   }
 
+// change images for dark/light header
 
 function changeImages(){
   let logo = document.getElementById('logo');
@@ -24,10 +27,12 @@ function changeImages(){
   }
 }
 
+// open burger menu
+
 function showBurgerMenu(){
     let showMenu = document.getElementById('hide');
     let headColor = document.getElementById('head-bar');
-    headColor.classList.toggle('header-light')
+    headColor.classList.toggle('header-light');
     headColor.classList.toggle('header-dark');
     showMenu.classList.toggle('show-list');
     showMenu.classList.toggle('hide-list')
@@ -36,6 +41,8 @@ function showBurgerMenu(){
     swapMenuButton();    
   }
 
+// change burger/close button
+
 function swapMenuButton(){
   let image = document.getElementById('burger-but');
     if (image.src.match('images/lines-dark.png')){
@@ -43,7 +50,9 @@ function swapMenuButton(){
     } else {
       image.src = 'images/lines-light.png';
     }
-  }  
+  }
+  
+// show modal window for call click
 
 function showModal(){  
   let call = document.getElementById('call');
@@ -54,6 +63,8 @@ function showModal(){
     call.style.display = 'none';
   }
 }
+
+// show modal message
 
 function reCall(){
   
